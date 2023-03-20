@@ -1,0 +1,17 @@
+.main_container {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.toolkit {
+    display: flex;
+    flex-direction: column;
+}
+
+.work_area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

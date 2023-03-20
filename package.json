@@ -1,0 +1,31 @@
+{
+  "name": "paint",
+  "version": "1.0.0",
+  "description": "canvas app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajai1/Paint.git"
+  },
+  "author": "ajaikumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajai1/Paint/issues"
+  },
+  "homepage": "https://github.com/ajai1/Paint#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "extract-css-chunks-webpack-plugin": "^4.9.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "css-loader": "^6.7.3"
+  }
+}
